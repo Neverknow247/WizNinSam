@@ -6,16 +6,16 @@ namespace wizNinSam
     {
         static void Main(string[] args)
         {
-            // Human human = new Human("Plain Nathan");
-            // Ninja nin = new Ninja("Ninja Nathan");
-            // Wizard wiz = new Wizard("Wizard Nathan");
-            // Samurai sam = new Samurai("Samurai Nathan");
-            // wiz.Attack(sam);
-            // sam.Meditate();
-            // sam.Attack(nin);
-            // wiz.Attack(sam);
-            // sam.Attack(wiz);
-            // nin.Attack(sam);
+            Human human = new Human("Plain Nathan");
+            Ninja nin = new Ninja("Ninja Nathan");
+            Wizard wiz = new Wizard("Wizard Nathan");
+            Samurai sam = new Samurai("Samurai Nathan");
+            wiz.Attack(sam);
+            sam.Meditate();
+            sam.Attack(nin);
+            wiz.Attack(sam);
+            sam.Attack(wiz);
+            nin.Attack(sam);
         }
     }
     class Human
