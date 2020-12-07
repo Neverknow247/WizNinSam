@@ -135,7 +135,7 @@ namespace wizNinSam
         }
         public void Meditate(){
             Console.WriteLine($"{Name} has meditated and is at full health");
-            GainHealth(200);
+            GainHealth(maxHealth);
         }
     }
 }
